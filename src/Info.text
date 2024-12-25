@@ -1,0 +1,5 @@
+// the .select() method is used to select the password
+  passwordRef.current?.select();
+  
+  // this is used to copy only password of 20 characters only
+  passwordRef.current?.setSelectionRange(0,20);
